@@ -6,12 +6,14 @@ st.set_page_config(page_title="Happy Birthday Sir Ameen Alam 🎉", page_icon="�
 
 st.title("Happy Birthday Sir Ameen Alam🎉")
 
-col1, col2, col3 = st.columns([1, 2, 1])  # 3 columns: left, center, right
+# Create three columns
+col1, col2, col3 = st.columns([1, 2, 1])
 
+# Use the middle column to center the image
 with col2:
     st.image(
         "https://res.cloudinary.com/dd4xvwf8d/image/upload/v1748032715/pic_pq6vcn.jpg",
-        width=300,  # control width
+        width=300,
         caption="Sir Ameen Alam"
     )
 
