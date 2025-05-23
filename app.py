@@ -38,7 +38,7 @@ Once again, happy birthday! We all pray for your health, happiness, and success.
 if st.button("Celebrate 🎂"):
     with st.spinner("Loading birthday wishes..."):
         time.sleep(1)
-    rain(emoji="🎉", font_size=50, falling_speed=5, animation_length=3)
+    rain(emoji="🎉", font_size=50, falling_speed=3, animation_length=3)
     st.success("Happy Birthday Sir! 🎉🎊")
 
 st.markdown("---")
